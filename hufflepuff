@@ -1,5 +1,5 @@
 const mySpecialArray = ["I","L","v"," ","o","e","m","t","h","i","s","d","C","e","o"," "];
-for (let i = 0; i < mySpecialArray.length; i++) {
+for (let i = 0; i < mySpecialArray.length/2; i++) {
 console.log (mySpecialArray[i]) + 
 console.log(mySpecialArray[mySpecialArray.length - 1 - i])
 };
