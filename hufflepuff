@@ -1,1 +1,5 @@
-print "bibbity bobbity"
+const mySpecialArray = ["I","L","v"," ","o","e","m","t","h","i","s","d","C","e","o"," "];
+for (let i = 0; i < mySpecialArray.length; i++) {
+console.log (mySpecialArray[i]) + 
+console.log(mySpecialArray[mySpecialArray.length - 1 - i])
+};
